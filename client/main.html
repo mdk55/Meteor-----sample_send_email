@@ -1,0 +1,59 @@
+<head>
+  <title>Emsil Sample-Crib</title>
+</head>
+
+<body>
+  <h1>Welcome to FFW a Brilliant Contact Template!</h1>
+
+  {{> loginButtons}}
+    <hr>
+    {{>email}}
+    <hr>
+    <label>For Development Purposes:</label>
+    {{> info}}
+</body>
+
+
+
+
+
+<template name="info">
+  <h2>How to translate "consieller-soluble" with these common work habits.</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try">Start a Build Tutorial</a></li>
+    <li><a href="http://guide.meteor.com">Follow a Check-In Guide</a></li>
+    <li><a href="https://docs.meteor.com">Proof a ReadMe.doc</a></li>
+    <li><a href="https://forums.meteor.com">Sell a Leaderboard Client</a></li>
+  </ul>
+    
+</template>
+
+
+
+<template name="email">
+    
+    <div class="container">
+    <form role="form" id="email-form">
+       
+        <div class="form-group">
+        <label for="inputEmail"> Email Adress: </label>
+            <input type="" class="form-control" id="inputEmail" placeholder="Enter a Valid Email">
+        </div>
+        
+        <div class="form-group">
+            <label for ="inputSubject"> Subject Line: </label>
+            <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+        </div>
+        
+        <div class="form-group">
+            <label for="inputBody"> Message: </label>
+            <input type="text" class="form-control" id="inputBody" size="60" placeholder="Write your message here ...">
+        </div>
+        
+        <button type="submit"  class="btn btn-primary"> Send Email</button>
+       
+        </form>
+    </div>
+    
+    
+</template>
